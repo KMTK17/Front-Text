@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.head{
+    background-color: #F0F3FF;
+    color: #5E47D2;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 1.2em;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.head-profile{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav a{
+    color: #5E47D2;
+}

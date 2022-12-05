@@ -9,14 +9,14 @@ body{
 }
 
 .head{
-    background-color: #F0F3FF;
+    background-color: #FFFFFF;
     color: #5E47D2;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
     padding: 30px;
     font-size: 1.2em;
-    margin: 50px;
+    margin: 75px;
     border-radius: 20px;
 }
 
@@ -29,4 +29,130 @@ body{
 
 .nav a{
     color: #5E47D2;
+}
+
+.content{
+    margin: 150px;
+    display: flex;
+    flex-flow: wrap column;
+    gap: 50px;
+}
+
+.content-top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-top-title{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+.content-top-title h3{
+    color: #5E47D2;
+}
+
+.content-top-title span{
+    color: lightslategrey;
+}
+
+.content-top-filter{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+.content-top-filter img{
+    width: 30px;
+    height: 30px;
+}
+.content-top-filter span{
+   color: #5E47D2;
+}
+
+.content-top-filter button{
+    border-radius: 5px;
+    background-color: #5E47D2;
+    border: transparent;
+    padding: 5px;
+}
+
+.content-top-filter input{
+    border-radius: 5px;
+    border: 1px solid lightslategrey;
+    padding: 5px;
+}
+
+.content-top-buttons{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-add{
+    background-color: #5E47D2;
+    padding: 8px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+}
+
+.button-del{
+    background-color: #FF6666;
+    padding: 5px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.button-del img{
+    width: 30px;
+    height: 30px;
+}
+
+.table{
+    background-color: #FFFFFF;
+}
+
+.table thead{
+    color: #5E47D2;
+}
+
+.page{
+    margin: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 290px;
+    align-items: center;
+}
+
+.page1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.page1-button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.page2{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.pagination .page-link{
+    color: black;
 }

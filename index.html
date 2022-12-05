@@ -17,7 +17,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #F0F3FF;">
     <header class="head">
         <div class="head-img">
             <img src="img/baloncesto.png" alt="balon" width="50" height="50">
@@ -29,7 +29,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
+                    <a class="nav-link " href="#">Productos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Compras</a>
@@ -47,7 +47,7 @@
         </nav>
 
         <div class="head-profile">
-            <img src="img/user.svg" alt="user"><span>Perfil</span>
+            <img src="img/icons8-usuario-30.png" alt="user"><span>Perfil</span>
         </div>
     </header>
 
@@ -57,15 +57,15 @@
                 <h3>Productos</h3><span># de items</span>
             </div>
 
-            <div class="content-top-fliter">
-                <span>Filtro</span><img src="img/filter.svg" alt="filter">
+            <div class="content-top-filter">
+                <span>Filtro</span><img src="img/icons8-filter-64.png" alt="filter">
                 <input type="search" name="search" id="search" placeholder="Search">
-                <button><img src="img/search.svg"></button>
+                <button><img src="img/icons8-búsqueda-30.png"></button>
             </div>
 
             <div class="content-top-buttons">
-                <button><img src="img/trash-2.svg"></button>
-                <button>Agregar nuevo producto</button>
+                <button class="button-del"><img src="img/icons8-eliminar-48.png"></button>
+                <button class="button-add">Agregar nuevo producto</button>
             </div>
         </article>
 
@@ -83,6 +83,9 @@
                         <th scope="col">Subcategoria</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr></tr>
+                </tbody>
 
             </table>
 
@@ -91,7 +94,32 @@
 
 
     </section>
+    <section class="page">
 
+        <div class="page1">
+            <button class="page1-button">-</button>
+            <button class="page1-button">3</button>
+            <button class="page1-button">+</button>
+        </div>
+
+        <div class="page2">
+            <p>Total 15 items</p>
+            <ul class="pagination">
+                <li class="page-link"><</li>
+                <li class="page-link"><u>1</u></li>
+                <li class="page-link">...</li>
+                <li class="page-link"><u>4</u></li>
+                <li class="page-link"><u>5</u></li>
+                <li class="page-link"><u>6</u></li>
+                <li class="page-link"><u>7</u></li>
+                <li class="page-link"><u>8</u></li>
+                <li class="page-link">...</li>
+                <li class="page-link"><u>12</u></li>
+                <li class="page-link">></li>
+            </ul>
+        </div>
+
+    </section>
 
 </body>
 
